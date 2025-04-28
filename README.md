@@ -16,6 +16,10 @@ This project contains automated end-to-end tests for the Saucedemo e-commerce we
 - Visual testing
 - Performance testing
 
+## Known Issues
+
+See [Bugs.md](Bugs.md) for a list of known issues and their severity levels.
+
 ## Tech Stack
 
 - [Playwright](https://playwright.dev/) - Testing framework
@@ -93,7 +97,3 @@ npm run allure:open
 ├── playwright.config.ts  # Playwright configuration
 └── package.json         # Project dependencies and scripts
 ```
-
-## Known Issues
-
-See [Bugs.md](Bugs.md) for a list of known issues and their severity levels.

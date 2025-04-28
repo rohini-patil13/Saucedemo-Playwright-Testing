@@ -1,0 +1,33 @@
+{
+  "name": "swag-labs---ecom-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "test:visual": "npx playwright test --grep @visual",
+    "test:e2e": "npx playwright test --grep @e2e",
+    "test:assessment": "npx playwright test --grep @assessment --project=Chrome",
+    "test:all": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/chalk": "^0.4.31",
+    "@types/csv-parse": "^1.1.12",
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^22.15.2",
+    "@types/papaparse": "^5.3.15",
+    "allure-playwright": "^3.2.1",
+    "ts-unused-exports": "^11.0.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.5.0",
+    "papaparse": "^5.5.2",
+    "ts-migrate": "^0.1.35"
+  }
+}

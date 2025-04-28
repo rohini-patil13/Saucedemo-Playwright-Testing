@@ -1,0 +1,9 @@
+{
+    "postalCodeRequired": "Error: Postal Code is required",
+    "firstNameRequired": "Error: First Name is required",
+    "invalidCreds": "Username and password do not match any user in this service",
+    "usernameRequired": "Username is required",
+    "invalidCreds2":"Epic sadface: Username and password do not match any user in this service",
+    "lockedOutUser": "Sorry, this user has been locked out"
+}
+  

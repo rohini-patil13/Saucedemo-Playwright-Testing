@@ -85,11 +85,15 @@ npm run allure:open
 
 ```
 ├── tests/                  # Test files
-├── testData/               # Json files
-├── pages/                  # Page Object Models
-├── utils/                  # Utility functions and helpers
-├── test-results/          # Test execution results
-├── allure-results/        # Allure report files
-├── playwright.config.ts   # Playwright configuration
-└── package.json           # Project dependencies and scripts
+├── testData/              # Json files
+├── pages/                 # Page Object Models
+├── utils/                 # Utility functions and helpers
+├── test-results/         # Test execution results
+├── allure-results/       # Allure report files
+├── playwright.config.ts  # Playwright configuration
+└── package.json         # Project dependencies and scripts
 ```
+
+## Known Issues
+
+See [Bugs.md](Bugs.md) for a list of known issues and their severity levels.
